@@ -7,7 +7,8 @@ cardLinkEll.forEach((element) => {
   element.textContent = "ссылка";
 });
 //3. Найти все элементы на странице с классом "card-link", которые лежат в элементе с классом "card-body" и вывести полученную коллекцию в консоль.
-
+const cardBodyEll = document.querySelector('.card-body');
+console.log(cardBodyEll.getElementsByClassName('card-link'));
 //4. Найти первый попавшийся элемент на странице у которого есть атрибут data-number со значением 50 и вывести его в консоль.
 
 //5. Выведите содержимое тега title в консоль.
